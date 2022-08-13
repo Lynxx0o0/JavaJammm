@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html >
+    <head>
+        <title>JavaJam Coffee House Jobs</title>
+        <link rel="stylesheet" href="JavaJam.css">
+    </head>
+    <body >
+        <div id="wrapper">
+            <div>
+                <header>
+                    <h1>JavaJam Coffee House</h1>
+                </header>
+            </div> 
+            <nav>
+                <ul>
+                    <li><a href="JavaJam.html">Home</a></li>
+                    <li><a href="Menu.html">Menu</a></li>
+                    <li><a href="Music.html">Music</a></li>
+                    <li><a href="Jobs.html">Jobs</a></li>
+                </ul>
+            </nav>
+            <main>
+                <div id="herojobs"></div>
+                <h2> Jobs at JavaJam </h2>
+                <p>Want to work at JavaJam? Fill out the form below to start your application. Required fields are marked with an asterisk(*)</p>
+                <form action="https://webdevbasics.net/script/javajam8.php" method="post">
+                    <label for="myName">*Name :</label>
+                    <input type="text" name="myName" id="myName" required/>
+                    <label for="myE-mail">*E-mail:</label>
+                    <input type="email" name="myE-mail" id="myE-mail" required/>
+                    <label for="myExperience">*Experience:</label>
+                    <textarea rows="2" cols="20" name="myExperience" id="myExperience" required></textarea>
+                    <input type="submit" value="Apply Now" id="mySubmit"/>
+                </form>
+            </main>
+            <div>
+                <h6>
+                    <footer>
+                        Copyright @ 2018 JavaJam Coffee House
+                        <br/>
+                        Contact us:
+                        <a href="mailto:030.090@gmail.com">030.090@gmail.com</a>
+                    </footer>
+                </h6>
+            </div>
+        </div>
+    </body>
+</html>
